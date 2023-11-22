@@ -1,0 +1,35 @@
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  border: none;
+  background-color: green;
+  color: white;
+  font-size: 20px;
+}
+
+#container {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.edit-button, .delete-button {
+  background-color: orange;
+  color: black;
+}
