@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- link the contacts.css file -->
+  <link rel="stylesheet" href="contacts.css">
+  <title>Contacts</title>
+</head>
+<body>
+  <h1>Contacts</h1>
+  <!-- create a table for the contacts -->
+  <table id="contacts-table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- the table body will be populated by the app.ts script -->
+    </tbody>
+  </table>
+  <!-- create a form for adding and editing contacts -->
+  <form id="contacts-form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone" required>
+  </form>
+  <!-- create buttons for CRUD operations -->
+  <button id="add-button">Add</button>
+  <button id="delete-button">Delete</button>
+  <button id="edit-button">Edit</button>
+  <!-- include the app.ts script -->
+  <script src="app.ts"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+/* set the font family and size for the whole document */
+* {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* center the heading */
+h1 {
+  text-align: center;
+}
+
+/* style the table */
+table {
+  /* make the table take the full width */
+  width: 100%;
+  /* add some spacing between cells */
+  border-spacing: 10px;
+}
+
+/* style the table header */
+th {
+  /* make the text bold */
+  font-weight: bold;
+  /* align the text to the left */
+  text-align: left;
+}
+
+/* style the table body */
+tbody {
+  /* add some vertical padding to the cells */
+  padding: 5px 0;
+}
+
+/* style the selected row */
+.selected {
+  /* change the background color */
+  background-color: lightblue;
+}
+
+/* style the form */
+form {
+  /* display the form elements in a grid */
+  display: grid;
+  /* set the grid template columns to auto-fit the content */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  /* set the grid gap to 10px */
+  grid-gap: 10px;
+  /* align the form to the center */
+  justify-content: center;
+  /* add some margin to the top and bottom */
+  margin: 20px 0;
+}
+
+/* style the labels */
+label {
+  /* align the text to the right */
+  text-align: right;
+}
+
+/* style the inputs */
+input {
+  /* make the inputs take the full width */
+  width: 100%;
+}
+
+/* style the buttons */
+button {
+  /* make the buttons take the full width */
+  width: 100%;
+  /* add some padding */
+  padding: 10px;
+  /* change the cursor to pointer */
+  cursor: pointer;
+}
+
+/* style the add button */
+#add-button {
+  /* change the background color */
+  background-color: green;
+  /* change the text color */
+  color: white;
+}
+
+/* style the delete button */
+#delete-button {
+  /* change the background color */
+  background-color: red;
+  /* change the text color */
+  color: white;
+}
+
+/* style the edit button */
+#edit-button {
+  /* change the background color */
+  background-color: orange;
+  /* change the text color */
+  color: white;
+}
