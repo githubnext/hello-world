@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#list {
+    border: 1px solid black;
+    min-height: 300px;
+    padding: 10px;
+}
+
+#form {
+    display: none;
+    padding: 10px;
+}
+
+#form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#form button {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact span {
+    flex: 1;
+}
+
+.contact button {
+    margin-right: 10px;
+}
+
+/* Estilos para el modo oscuro */
+.dark {
+    background-color: #333;
+    color: white;
+}
+
+.dark #list {
+    border-color: white;
+}
