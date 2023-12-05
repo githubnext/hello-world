@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacts List</title>
+    <!-- Add a reference to the style.css file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Contacts List</h1>
+    <!-- Add a login button and a logout button for authentication -->
+    <button id="login-btn">Login</button>
+    <button id="logout-btn">Logout</button>
+    <!-- Add a create button to show the form modal -->
+    <button id="create-btn">Create Contact</button>
+    <!-- Add a toggle button to switch between dark mode and light mode -->
+    <button id="toggle-btn">Dark Mode</button>
+    <!-- Add a table element to display the contacts data -->
+    <table id="contacts-table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th>Edit</th>
+          <th>Delete</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <!-- Add a loading message element to show while fetching the contacts data -->
+    <p id="loading">Loading...</p>
+    <!-- Add a form modal element to create or edit contacts -->
+    <div id="contact-form">
+      <h2>Contact Form</h2>
+      <form>
+        <label for="name-input">Name</label>
+        <input type="text" id="name-input" />
+        <label for="email-input">Email</label>
+        <input type="email" id="email-input" />
+        <label for="phone-input">Phone</label>
+        <input type="tel" id="phone-input" />
+        <button type="submit">Submit</button>
+      </form>
+      <!-- Add a close button to hide the form modal -->
+      <button id="close-btn">Close</button>
+    </div>
+    <!-- Add a reference to the app.js file -->
+    <script src="app.js"></script>
+  </body>
+</html>
