@@ -1,0 +1,38 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.bio, .skills, .contact {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+h1, h2 {
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+p, ul, li {
+  color: #666;
+  font-family: Verdana, sans-serif;
+}
